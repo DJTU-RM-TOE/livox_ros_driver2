@@ -1,4 +1,4 @@
-#!/bin/bash
+ros2 launch livox_ros_driver2 rviz_HAP_launch.py#!/bin/bash
 
 readonly VERSION_ROS1="ROS1"
 readonly VERSION_ROS2="ROS2"
