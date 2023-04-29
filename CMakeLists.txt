@@ -36,8 +36,8 @@ project(livox_ros_driver2)
   # find_package(<dependency> REQUIRED)
   find_package(ament_cmake_auto REQUIRED)
   
-  #find_package(PCAP)
-  #find_package(PNG)
+  find_package(PCAP)
+  find_package(PNG)
   #find_package(LibUSB)
 
   ament_auto_find_build_dependencies()
